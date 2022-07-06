@@ -19,13 +19,13 @@ const Works = () => {
 
    <SimpleGrid columns={[1,1,2]} gap={6}>
      <Section>
-       <WorkGridItem id="Anthos" title="Anthos" thumbnail={thumbAnthos}>
+       <WorkGridItem id="anthos" title="Anthos" thumbnail={thumbAnthos}>
           Award winning bussiness model idea, created for a university module.
 	  Bringing IoT to houseplants!
        </WorkGridItem>
      </Section>
      <Section>
-       <WorkGridItem id="Website" title="Personal Website" thumbnail={thumblogo}>
+       <WorkGridItem id="webpage" title="Website" thumbnail={thumblogo}>
 	  Personal Website Project using Next.js, Chakra UI, Framer Motion and VIM editor.
        </WorkGridItem>
      </Section>
