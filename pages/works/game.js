@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
 	  return(
-	      <Layout title="website">
+	      <Layout title="game">
 	        <Container>
 	          <Title>
 	              Unity 2D Game  <Badge>2021</Badge>
@@ -14,6 +14,11 @@ const Work = () => {
 		   <P>
 		   Created a 2D unity game for learning puproses.
 		   Learned how to use unity Game engine and C# to create a replica of the famous arcade Game Donkey-Kong
+		  </P>
+		  <WorkImage src ="/images/works/game.png" alt="game" />
+		  <P>
+		  Above this is the first level of my creation of the replica Donkey-Kong game.
+		  I have also created a Level 2 and a Preload so that you can keep score and keep track of lifes.
 		  </P>
 	       </Container>
 	     </Layout>
